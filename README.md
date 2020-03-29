@@ -40,12 +40,12 @@ async function main(): void {
 
   if (match) {
     // Create a remote instance
-    const device = new Remote(match[1]);
+    const remote = new Remote(match[1]);
 
     //Press the mute key
-    await device.press(Keys.Mute);
+    await remote.press(Keys.Mute);
 
-    device.close();
+    remote.close();
   }
 }
 
