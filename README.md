@@ -4,6 +4,16 @@ The idea of this proyect is to provide a node interface for interacting with the
 
 This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
 
+## Install
+
+```
+# yarn
+yarn add tcl-remote
+
+# node
+node install --save tcl-remote
+```
+
 ## Examples
 
 ```ts
