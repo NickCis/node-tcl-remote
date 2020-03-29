@@ -19,6 +19,10 @@
       "pre-commit": "yarn lint"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NickCis/node-tcl-remote.git"
+  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -35,7 +39,5 @@
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
   },
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  }
+  "dependencies": {}
 }
